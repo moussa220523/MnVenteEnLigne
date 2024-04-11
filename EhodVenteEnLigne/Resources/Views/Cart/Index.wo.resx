@@ -117,13 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Anglais</value>
+  <data name="Average" xml:space="preserve">
+    <value>Moyen</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Français</value>
+  <data name="Checkout" xml:space="preserve">
+    <value>dioxe sa commande</value>
   </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="ContinueShopping" xml:space="preserve">
+    <value>yokku benene njaay si sa panier</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Njaay</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Njëg</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>lim</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Dindee</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>yepp</value>
+  </data>
+  <data name="YourCart" xml:space="preserve">
+    <value>sa panier</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>yepp yepp</value>
+    <comment>yepp yepp</comment>
   </data>
 </root>

@@ -117,13 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Anglais</value>
+  <data name="DemoEnding" xml:space="preserve">
+    <value>Ngui gui topatoo sa commande. wanee bi diexe na, besel ci logo bi nguir tambali waat</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Français</value>
-  </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="Thanks" xml:space="preserve">
+    <value>Jërëjëf</value>
   </data>
 </root>
