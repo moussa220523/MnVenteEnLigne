@@ -28,7 +28,10 @@ builder.Services.AddMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddMvc()
     .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix, opts => { opts.ResourcesPath = "Resources"; })
-    .AddDataAnnotationsLocalization();
+    .AddDataAnnotationsLocalization(options => {
+        options.DataAnnotationLocalizerProvider = (type, factory) =>
+            factory.Create(typeof(EhodVenteEnLigne.SharedResource));
+    });
 
 builder.Services.AddDbContext<EhodBDD>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("EhodBDD")));

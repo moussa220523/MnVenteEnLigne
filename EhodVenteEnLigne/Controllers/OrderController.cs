@@ -39,7 +39,7 @@ namespace EhodBoutiqueEnLigne.Controllers
                 return RedirectToAction(nameof(Completed));
             }
             else
-            {
+            {              
                 return View(order);
             }
         }

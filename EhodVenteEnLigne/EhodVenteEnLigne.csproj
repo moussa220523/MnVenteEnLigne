@@ -8,6 +8,7 @@
     <DocumentationFile></DocumentationFile>
   </PropertyGroup>
 
+	
   <ItemGroup>
     <Compile Remove="Infrastructure\**" />
     <Compile Remove="Models\ViewModel\**" />
@@ -37,7 +38,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Resources\Models\Order.en.resx" />
+    <None Include="Resources\Models\Order.en.resx">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -58,5 +61,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
+
 
 </Project>
