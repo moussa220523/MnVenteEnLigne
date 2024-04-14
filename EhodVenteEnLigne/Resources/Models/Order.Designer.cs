@@ -59,6 +59,10 @@ namespace EhodVenteEnLigne.Resources.Models
             {
                 get { return ResourceManager.GetString("ErrorMissingZipCode", resourceCulture); }
             }
+        public static string InvalidZipCode
+        {
+            get { return ResourceManager.GetString("InvalidZipCode", resourceCulture); }
         }
+    }
 
 }

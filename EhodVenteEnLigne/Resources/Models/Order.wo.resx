@@ -132,4 +132,7 @@
   <data name="ErrorMissingZipCode" xml:space="preserve">
     <value>Limu deuku cliane bi nekusi</value>
   </data>
+  <data name="InvalidZipCode" xml:space="preserve">
+    <value>Kódiyu pos bi dafa war a nekk ab lim bu mat sëkk.</value>
+  </data>
 </root>

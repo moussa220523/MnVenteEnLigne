@@ -28,10 +28,7 @@ builder.Services.AddMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddMvc()
     .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix, opts => { opts.ResourcesPath = "Resources"; })
-    .AddDataAnnotationsLocalization(options => {
-        options.DataAnnotationLocalizerProvider = (type, factory) =>
-            factory.Create(typeof(EhodVenteEnLigne.SharedResource));
-    });
+    .AddDataAnnotationsLocalization();
 
 builder.Services.AddDbContext<EhodBDD>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("EhodBDD")));
@@ -65,7 +62,7 @@ else
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-var supportedCultures = new[] { "en-GB", "en-US", "en", "fr-FR", "fr","wo","ar" };
+var supportedCultures = new[] { "en-GB", "en-US", "en", "fr-FR", "fr","wo" };
 var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0])
     .AddSupportedCultures(supportedCultures.ToArray())
     .AddSupportedUICultures(supportedCultures);
